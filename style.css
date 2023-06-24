@@ -86,6 +86,7 @@ a {
     padding: 0.75em;
     border-radius: 4px;
     background-color: var(--custom-colour);
+    color: #ffffff;
 }
 
 #login-text {
