@@ -69,27 +69,27 @@
     <!-- The Modal Form -->
     <div id="form-ct" class="modal">
         <form class="form">
+            <span class="close" onclick="closeForm()">&times</span>
             <div class="form-header">
-                <span class="close" onclick="closeForm()">&times</span>
-                <h2 id="form-title">Welcome to <i class="fa fa-leaf fa-lg logo"></i> Carbon Easy!</h2>
-                <h3 id="form-subhead">Already have an account? <a href="#"> Log In</a></h3>
+                <h2 class="form-title">Welcome to <i class="fa fa-leaf fa-lg logo"></i> Carbon Easy!</h2>
+                <h3 class="form-subhead">Already have an account? <a href="#"> Log In</a></h3>
             </div>
             <div class="form-body">
                 <div id="userInfo" class="fieldset">
                     <h4><u>User Details</u></h4>
-                    <label for="given-name">Given Name: <input id="given-name" placeholder="Enter Your Given Name" name="given-name" type="text" required/></label><br>
-                    <label for="surname">Surname: <input id="surname" name="surname" placeholder="Enter Your Surname" type="text" required/></label><br>
-                    <label for="username">Username: <input id="username" name="username" placeholder="Enter Your Username" type="text" required/></label><br>
+                    <label for="given-name">Given Name: <input id="given-name" placeholder="Enter Your Given Name" name="given-name" type="text" required/></label>
+                    <label for="surname">Surname: <input id="surname" name="surname" placeholder="Enter Your Surname" type="text" required/></label>
+                    <label for="username">Username: <input id="username" name="username" placeholder="Enter Your Username" type="text" required/></label>
                     <label for="new-password">New Password: <input id="new-password" name="new-password" placeholder="Enter a New Password" type="password" required/></label>
                 </div>
                 <div id="addressInfo" class="fieldset">
                     <h4><u>Address Info</u></h4>
-                    <label for="home-address">Address: <input id="home-address" placeholder="Enter Your Home Address" name="home-address" type="text"/></label><br>
+                    <label for="home-address">Address: <input id="home-address" placeholder="Enter Your Home Address" name="home-address" type="text"/></label>
                     <label for="work-address">Work Address: <input id="work-address" placeholder="Enter Your Work Address" name="work-address" type="text"/></label>
                 </div>
                 <div id="contactInfo" class="fieldset">
                     <h4><u>Contact Info</u></h4>
-                    <label for="mobile-no">Mobile: <input id="mobile-no" name="mobile-no" placeholder="Enter Your Mobile" type="number"/></label><br>
+                    <label for="mobile-no">Mobile: <input id="mobile-no" name="mobile-no" placeholder="Enter Your Mobile" type="number"/></label>
                     <label for="email">Enter Your Email: <input type="email" placeholder="Enter Your Email" name="email"></label>
                 </div>
             </div>
